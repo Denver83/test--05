@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>test-555</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<section class="chat">
+			<h1 class="visually-hidden">Вcплывающая панель для переписки</h1>
+			<header class="chat__header">
+				<img src="img/avatar-1.png" width="45" height="45" alt="logo">
+				<div class="chat__user-info">
+					<p class="chat__nickname">Токсикова Ольга</p>
+					<p class="chat__location">Днепропетровск</p>
+				</div>
+				<!-- Рейтинг можно сделать с помощью js либо css, но в тз этого нету поэтому я не замарачивался)-->
+				<div class="chat__rating">
+					<div class="gold-stars"></div>
+					<div class="grey-stars"></div>
+				</div>
+				<button class="chat__close"></button>
+			</header>
+			<main>
+			  <div class="message message--user-1">
+			  	<div class="message__user-avatar">
+				    <img src="img/avatar-1-small.png" width="31" height="31" alt="user-image">
+				  </div>
+				  <p class="message__text">
+				   Где взять на прокат вечернее красивое платье?
+				       А еще лучше дизайнерское! Предстоит участие в <a href="#">мероприятии</a>,
+				        где все гости будут наверняка одеты в наряды "от кутюр",
+				         а у меня со средствами туговато,
+				          да и жалко на один раз такие деньжищи отваливать. Мне
+				  </p>
+				  <div class="message__time">
+				  	<time>вчера в 17.45</time>
+				  </div>
+			  </div>
+			  <div class="message message--user-2">
+			  	<div class="message__user-avatar">
+				    <img src="img/avatar-2-small.png" width="31" height="31" alt="user-image">
+				  </div> 
+				  <p class="message__text">
+				    Поисковик вам в помощь! 
+				      Но цена примерно в половину стоимости платья.
+				  </p>
+				  <div class="message__time">
+				  	<time>вчера в 18.45</time>
+					</div>
+			  </div>
+				<div class="message message--user-1">
+					<div class="message__user-avatar">
+				     <img src="img/avatar-1-small.png" width="31" height="31" alt="user-image">
+				  </div>
+				  <p class="message__text">
+				    Где взять на прокат вечернее красивое платье?
+				       А еще лучше дизайнерское! Предстоит участие в мероприятии,
+				        где все гости будут наверняка одеты в наряды "от кутюр",
+				         а у меня со средствами туговато
+				  </p>
+				  <div class="message__time">
+				  	<time>сегодня в 17.45</time>
+					</div>
+			  </div>
+			  <div class="message message--user-2">
+				    <img src="img/avatar-2-small.png" width="31" height="31" alt="user-image">
+				    <p class="message__text">
+				      Поисковик вам в помощь! 
+				      Но цена примерно в половину стоимости платья.
+				    </p>
+				    <div class="message__time">
+				    	<time>18.45</time>
+				    </div>
+			  </div>
+		  </main>
+			<footer class="chat__footer">
+				<form action="#" class="chat__footer__form" method="post">
+					<div class="footer__logo">
+						<img src="img/avatar-2.png" alt="user-image" width="45" height="45">
+			    <textarea rows="10" cols="45" name="text"></textarea>
+					</div>
+			    <input type="submit" value="Отправить" class="btn" >
+				</form>
+			</footer>
+		</section>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.chat__footer{
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	background-color: #e9f2fa;
+}
+.chat__footer__form{
+	display: flex;
+	flex-direction: column;
+}
+.footer__logo	img{
+	vertical-align: top;
+}
+.footer__logo	textarea{
+	height: 73px;
+	width: 89%;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	
+}
+.btn{
+	width: 135px;
+	height: 30px;
+	text-align: center;
+	margin-left: 59px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}

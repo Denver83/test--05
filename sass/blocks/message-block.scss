@@ -1,0 +1,30 @@
+main{
+	display: flex;
+	flex-direction: column;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	overflow-y: scroll;
+  height: 310px;
+}
+.message{
+	display: flex;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.message__text{
+	flex-basis: 77%;
+	padding-left: 15px;
+	font-size: 14px;
+	line-height: 19px;
+	font-family: "Arial", sans serif;
+}
+.message__text a{
+	color: #77b5ff;
+}
+.message__time{
+	display: flex;
+	justify-content: flex-end;
+	flex-basis: 22%;
+	font-size: 14px;
+}
